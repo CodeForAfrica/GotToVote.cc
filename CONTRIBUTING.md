@@ -1,6 +1,6 @@
-# Contributing to HTML5 Boilerplate
+# Contributing to GotToVote.cc
 
-♥ [GotToVote](http://gottovote.codeforafrica.org) and want to get involved?
+♥ [GotToVote](http://gottovote.cc) and want to get involved?
 Thanks! There are plenty of ways you can help!
 
 Please take a moment to review this document in order to make the contribution
@@ -14,7 +14,7 @@ patches and features.
 
 ## Using the issue tracker
 
-The [issue tracker](https://github.com/CodeForAfrica/GotToVote.io/issues) is
+The [issue tracker](https://github.com/CodeForAfrica/GotToVote.cc/issues) is
 the preferred channel for [bug reports](#bugs), [features requests](#features)
 and [submitting pull requests](#pull-requests), but please respect the following
 restrictions:
@@ -107,11 +107,11 @@ included in the project:
 
    ```bash
    # Clone your fork of the repo into the current directory
-   git clone https://github.com/<your-username>/GotToVote.io.git
+   git clone https://github.com/<your-username>/GotToVote.cc.git
    # Navigate to the newly cloned directory
-   cd html5-boilerplate
+   cd GotToVote.cc
    # Assign the original repo to a remote called "upstream"
-   git remote add upstream https://github.com/CodeForAfrica/GotToVote.io.git
+   git remote add upstream https://github.com/CodeForAfrica/GotToVote.cc.git
    ```
 
 2. If you cloned a while ago, get the latest changes from upstream:

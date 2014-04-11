@@ -1,4 +1,4 @@
-GotToVote.io
+GotToVote.cc
 ============
 
 The GotToVote showcase website.
