@@ -1,5 +1,5 @@
 /*
- * GotToVote.cc Stylesheet
+ * GotToVote.cc Stylesheet - style.css
  * -------------------------------------------------------
  * Author: Code for Africa
  * URI: http://www.codeforafrica.org
@@ -89,12 +89,47 @@ body {
 
 /*===================== Custom Global Styles =====================*/
 
+a {
+	-webkit-transition: color ease-in-out 0.2s, background-color ease-in-out 0.2s, opacity ease-in-out 0.2s;
+   -moz-transition: color ease-in-out 0.2s, background-color ease-in-out 0.2s, opacity ease-in-out 0.2s;
+   -o-transition: color ease-in-out 0.2s, background-color ease-in-out 0.2s, opacity ease-in-out 0.2s;
+   transition: color ease-in-out 0.2s, background-color ease-in-out 0.2s, opacity ease-in-out 0.2s;
+}
+
 .header img {
 	width: 200px;
 	margin-top: -20px;
 }
 
+
+
 /*======================      Home Page      ======================*/
 
+.jumbotron .text-success a {
+	color: #5cb85c;
+}
+	.jumbotron .text-success a:hover {
+		color: #47a447;
+	}
+
+.partner-logos a {
+	margin: 10px;
+}
+	.partner-logos a img {
+		height: 80px;
+	}
+	.partner-logos a:hover, .footer a:hover {
+		opacity: 0.6;
+	}
+
+.footer {
+	margin-left: -5px;
+}
+	.footer a {
+		margin: 5px;
+	}
+	.footer a img {
+		height: 40px;
+	}
 
 

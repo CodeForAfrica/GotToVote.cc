@@ -7,7 +7,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>{{ page.title }} | GotToVote.cc</title>
-        <meta name="description" content="HEnabling citizens to get to the ballot box informed and ready.">
+        <meta name="description" content="Enabling citizens to get to the ballot box informed and ready.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -29,8 +29,9 @@
         <div class="container">
         	<div class="header">
         		<ul class="nav nav-pills pull-right">
-        			<li class="active"><a href="#">Home</a></li>
-        			<li><a href="#">Features</a></li>
+        			<li class="{{ page.home }}"><a href="/">Home</a></li>
+        			<li class="{{ page.about }}"><a href="/about">About</a></li>
+        			<!--<li><a href="#">Features</a></li>
 					<li class="dropdown">
 						<a class="dropdown-toggle" data-toggle="dropdown" href="#">
 							About <span class="caret"></span>
@@ -42,8 +43,8 @@
 							<li role="presentation" class="divider"></li>
 							<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Separated link</a></li>
 						</ul>
-					</li>
-        			<li><a href="#" style="border: 2px solid; padding: 8px 13px;"><i class="fa fa-github fa-lg"></i> GitHub</a></li>
+					</li>-->
+        			<li><a href="http://github.com/CodeForAfrica/GotToVote" style="border: 2px solid; padding: 8px 13px;"><i class="fa fa-github fa-lg"></i> GitHub</a></li>
         		</ul>
         		<h3 class="text-muted"><img src="/img/logo_2.png" alt="" /></h3>
         	</div>
@@ -53,8 +54,19 @@
         {{ content }}
         
         <div class="container">
-        	<div class="footer">
-        		
+        	<div class="footer row">
+        		<div class="col-md-9">
+        			<p class="text-muted"><b>Supported By</b></p>
+        			<p class="partners">
+        				<a href="http://africanmediainitiative.org" target="_blank"><img src="/img/logos/ami.png" alt="" style="height: 50px;" /></a>
+        				<a href="http://wbi.worldbank.org" target="_blank"><img src="/img/logos/wbi.png" alt="" /></a>
+        				<a href="http://icfj.org" target="_blank"><img src="/img/logos/icfj.png" alt="" /></a>
+        			</p>
+        		</div>
+        		<div class="col-md-3 text-right">
+        			<p class="text-muted"><b>Built By</b></p>
+        			<p><a href="http://www.codeforafrica.org" target="_blank"><img src="/img/logos/c4a.png" alt="" style="height: 40px;" /></a></p>
+        		</div>
         	</div>
         </div>
 
