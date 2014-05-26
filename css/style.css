@@ -8,7 +8,7 @@
 
 /* Space out content a bit */
 body {
-  padding-top: 20px;
+  padding-top: 111px;
   padding-bottom: 20px;
 }
 
@@ -76,10 +76,6 @@ body {
     padding-right: 0;
     padding-left: 0;
   }
-  /* Space out the masthead */
-  .header {
-    margin-bottom: 30px;
-  }
   /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {
     border-bottom: 0;
@@ -99,6 +95,15 @@ a {
 .header img {
 	width: 200px;
 	margin-top: -20px;
+}
+
+.main-nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding-top: 20px;
+  background-color: #ffffff;
+  z-index: 9999;
 }
 
 
@@ -133,3 +138,17 @@ a {
 	}
 
 
+/*======================      Blog Page      ======================*/
+.blog-list .media {
+  margin-top: 40px;
+}
+.blog-list .media-object {
+  max-width: 100%;
+  width: 200px;
+}
+
+/*======================      Post Page      ======================*/
+
+.post-featured {
+  margin: 10px;
+}

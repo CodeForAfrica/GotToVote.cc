@@ -16,43 +16,32 @@
         <link rel="stylesheet" href="/css/main.css">
         <link rel="stylesheet" href="/css/bootstrap.min.css">
         <link rel="stylesheet" href="/css/font-awesome.min.css">
-        
+
         <link rel="stylesheet" href="/css/style.css" />
-        
+
         <script src="/js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+        <div class="main-nav">
+          <div class="container">
+          	<div class="header">
+          		<ul class="nav nav-pills pull-right">
+          			<li class="{{ page.home }}"><a href="/">Home</a></li>
+                <li class="{{ page.blog }}"><a href="/blog">Blog</a></li>
+                <li class="{{ page.about }}"><a href="/about">About</a></li>
+          			<li><a href="http://github.com/CodeForAfrica/GotToVote" target="_blank" style="border: 2px solid; padding: 8px 13px;"><i class="fa fa-github fa-lg"></i></a></li>
+          		</ul>
+          		<h3 class="text-muted"><img src="/img/logo_2.png" alt="" /></h3>
+          	</div>
+          </div>
+        </div><!-- /.main-nav -->
 
-        <div class="container">
-        	<div class="header">
-        		<ul class="nav nav-pills pull-right">
-        			<li class="{{ page.home }}"><a href="/">Home</a></li>
-        			<li class="{{ page.about }}"><a href="/about">About</a></li>
-        			<!--<li><a href="#">Features</a></li>
-					<li class="dropdown">
-						<a class="dropdown-toggle" data-toggle="dropdown" href="#">
-							About <span class="caret"></span>
-						</a>
-						<ul class="dropdown-menu">
-							<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
-							<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
-							<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
-							<li role="presentation" class="divider"></li>
-							<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Separated link</a></li>
-						</ul>
-					</li>-->
-        			<li><a href="http://github.com/CodeForAfrica/GotToVote" style="border: 2px solid; padding: 8px 13px;"><i class="fa fa-github fa-lg"></i> GitHub</a></li>
-        		</ul>
-        		<h3 class="text-muted"><img src="/img/logo_2.png" alt="" /></h3>
-        	</div>
-        </div>
-        
         <!-- Add your site or application content here -->
         {{ content }}
-        
+
         <div class="container">
         	<div class="footer row">
         		<div class="col-md-9">
