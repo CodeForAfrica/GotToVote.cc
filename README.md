@@ -1,7 +1,7 @@
 GotToVote.cc
 ============
 
-The GotToVote showcase website.
+[GotToVote.cc](http://gottovote.cc) showcases GotToVote and deployments of it. Check it out to see the latest in news and features on how you can enable fellow citizens to get to the polling booth ready.
 
 
 ## Contributing
