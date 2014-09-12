@@ -152,3 +152,7 @@ a {
 .post-featured {
   margin: 10px;
 }
+  .post-featured img {
+    width: 250px;
+    max-width: 100%;
+  }
