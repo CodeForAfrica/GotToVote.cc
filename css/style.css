@@ -96,6 +96,9 @@ a {
 	width: 200px;
 	margin-top: -20px;
 }
+.header ul {
+  padding-bottom: 19px;
+}
 
 .main-nav {
   position: fixed;
@@ -142,6 +145,9 @@ a {
 .blog-list .media {
   margin-top: 40px;
 }
+.blog-list .media .media-thumb {
+  max-width: 30%;
+}
 .blog-list .media-object {
   max-width: 100%;
   width: 200px;
@@ -151,6 +157,7 @@ a {
 
 .post-featured {
   margin: 10px;
+  max-width: 40%;
 }
   .post-featured img {
     width: 250px;
