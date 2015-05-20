@@ -16,6 +16,7 @@
         <link rel="stylesheet" href="/css/main.css">
         <link rel="stylesheet" href="/css/bootstrap.min.css">
         <link rel="stylesheet" href="/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/css/anchor.css">
 
         <link rel="stylesheet" href="/css/style.css" />
 
@@ -27,16 +28,17 @@
         <![endif]-->
         <div class="main-nav">
           <div class="container">
-          	<div class="header">
+            <div class="header">
               <h3 class="text-muted pull-left"><img src="/img/logo_2.png" alt="" /></h3>
-          		<ul class="nav nav-pills pull-right">
-          			<li class="{{ page.home }}"><a href="/">Home</a></li>
-                <li class="{{ page.blog }}"><a href="/blog">Blog</a></li>
-                <li class="{{ page.about }}"><a href="/about">About</a></li>
-          			<li><a href="http://github.com/CodeForAfrica/GotToVote" target="_blank" style="border: 2px solid; padding: 8px 13px;"><i class="fa fa-github fa-lg"></i></a></li>
-          		</ul>
+              <ul class="nav nav-pills pull-right">
+                <li class="{{ page.nav_home }}"><a href="/">Home</a></li>
+                <li class="{{ page.nav_blog }}"><a href="/blog">Blog</a></li>
+                <li class="{{ page.nav_about }}"><a href="/about">About</a></li>
+                <li class="{{ page.nav_docs }}"><a href="/docs" style="text-decoration:underline;">Docs</a></li>
+                <li><a href="http://github.com/CodeForAfrica/GotToVote" target="_blank" style="border: 2px solid; padding: 8px 13px;"><i class="fa fa-github fa-lg"></i></a></li>
+              </ul>
               <div class="clearfix"></div>
-          	</div>
+            </div>
 
           </div>
         </div><!-- /.main-nav -->
@@ -45,26 +47,26 @@
         {{ content }}
 
         <div class="container">
-        	<div class="footer row">
-        		<div class="col-md-9">
-        			<p class="text-muted"><b>Supported By</b></p>
-        			<p class="partners">
-        				<a href="http://africanmediainitiative.org" target="_blank"><img src="/img/logos/ami.png" alt="" style="height: 50px;" /></a>
-        				<a href="http://wbi.worldbank.org" target="_blank"><img src="/img/logos/wbi.png" alt="" /></a>
-        				<a href="http://icfj.org" target="_blank"><img src="/img/logos/icfj.png" alt="" /></a>
-        			</p>
-        		</div>
-        		<div class="col-md-3 text-right">
-        			<p class="text-muted"><b>Built By</b></p>
-        			<p><a href="http://www.codeforafrica.org" target="_blank"><img src="/img/logos/c4a.png" alt="" style="height: 40px;" /></a></p>
-        		</div>
-        	</div>
+          <div class="footer row">
+            <div class="col-md-9">
+              <p class="text-muted"><b>Supported By</b></p>
+              <p class="partners">
+                <a href="http://wbi.worldbank.org" target="_blank"><img src="/img/logos/wbi.png" alt="" /></a>
+                <a href="http://icfj.org" target="_blank"><img src="/img/logos/icfj.png" alt="" /></a>
+              </p>
+            </div>
+            <div class="col-md-3 text-right">
+              <p class="text-muted"><b>Built By</b></p>
+              <p><a href="http://www.codeforafrica.org" target="_blank"><img src="/img/logos/c4a.png" alt="" style="height: 40px;" /></a></p>
+            </div>
+          </div>
         </div>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
         <script src="/js/plugins.js"></script>
         <script src="/js/bootstrap.min.js"></script>
+        <script src="/js/anchor.min.js"></script>
         <script src="/js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->

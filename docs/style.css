@@ -1,0 +1,17 @@
+/*
+ * GotToVote.cc Docs Stylesheet - docs/style.css
+ * 
+ * Author: David Lemayian
+ * URI: http://davidlemayian.com
+ * Organisation: Code for Africa
+ * Org URI: http://www.codeforafrica.org
+ * -------------------------------------------------------
+ */
+
+body {
+  padding-top: 0;
+}
+
+.main-nav {
+  position: initial;
+}

@@ -1,0 +1,59 @@
+---
+layout: default
+title: Docs
+permalink: docs/
+nav_docs: active
+---
+
+<div class="container">
+  <div class="marketing">
+    <div class="page-header">
+      <h2 class="no-anchor">GotToVote! Documentation<br/><small>Some pointers on how to get started with your own GotToVote instance.</small></h2>
+    </div>
+
+    <h4>Contents</h4>
+    <ol class="list-unstyled">
+      <li><a href="#gottovote-registration-centres">GotToVote! Registration Centres</a></li>
+      <ul class="list-unstyled">
+        <li><a href="#">Requirements</a></li>
+      </ul>
+    </ol>
+
+    <hr/>
+
+    {% markdown docs/gtv-reg-centers.md %}
+
+  </div>
+  
+  <hr />
+  
+  <div class="marketing text-center">
+    <p class="lead">Made Possible With Support From</p>
+    <p class="partner-logos">
+      <a href="http://africanmediainitiative.org" target="_blank"><img src="/img/logos/ami.png" style="height: 100px;" /></a>
+      <a href="http://wbi.worldbank.org" target="_blank"><img src="/img/logos/wbi.png" /></a>
+      <a href="http://icfj.org" target="_blank"><img src="/img/logos/icfj.png" /></a>
+      <br /><br />
+      <a href="http://hivos.org" target="_blank"><img src="/img/logos/hivos.png" style="height: 70px;" /></a>
+      <a href="https://www.facebook.com/HacksHackersAfrica" target="_blank"><img src="/img/logos/hha.png" /></a>
+    </p>
+  </div>
+  
+  <hr />
+  
+  <div class="marketing text-center">
+    <a class="twitter-timeline" href="https://twitter.com/search?q=%23GotToVote" data-widget-id="443862671192903680">Tweets about "#GotToVote"</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+  </div>
+</div>
+
+<link rel="stylesheet" href="/docs/style.css" />
+
+<!-- Anchor stuff -->
+
+<script type="text/javascript">
+  window.onload = function() {
+    anchors.add();
+    anchors.remove('.no-anchor');
+  };
+</script>
