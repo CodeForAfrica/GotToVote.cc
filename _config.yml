@@ -1,5 +1,8 @@
 name: GotToVote.cc
 markdown: redcarpet
-pygments: true
+highlighter: pygments
+
+safe: true
+lsi: false
 
 encoding: utf-8
