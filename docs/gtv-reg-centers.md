@@ -2,7 +2,7 @@
 
 The first of the GotToVote! components to be built. This allows easy display and finding of registration centers.
 
-**Demo:** [http://ghana.gottovote.cc](http://ghana.gottovote.cc)
+**Demo:** [http://rci.gottovote.cc/](http://rci.gottovote.cc/)
 
 #### 1.1. Requirements
 
@@ -18,15 +18,15 @@ To test the webserver on your own machine, you will need to install [Jekyll](htt
 
 #### 1.2. Installation
 
-Start by [creating a fork](https://help.github.com/articles/fork-a-repo/) of [GotToVote! Ghana repository](https://github.com/CodeForAfrica/GotToVote.Ghana).
+Start by [creating a fork](https://help.github.com/articles/fork-a-repo/) of [GotToVote! RCI repository](https://github.com/CodeForAfrica/GotToVote-RCI).
 
 Once done you can clone your version onto your local machine.
 
-    git clone https://github.com/[username]/GotToVote.Ghana.git
+    git clone https://github.com/[username]/GotToVote-RCI.git
 
 To see it in action almost immediately run:
 
-    cd GotToVote.Ghana
+    cd GotToVote-RCI
     jekyll serve
 
 That's it. If you visit [http://localhost:4000/](http://localhost:4000/) you'll see a vanilla version of GotToVote! Ghana.
@@ -91,25 +91,30 @@ For GotToVote! Registration Centres, we need two things:
 
 Follow the getting started guide [here](https://developers.google.com/fusiontables/docs/v2/getting_started) for more information.
 
-Once done, edit the `js/main.js` file as follows:
-
-    ...
-    var api_key = "&key=YOUR_API_KEY";
-    
-    county_sel.onchange = function () {
-      ...
-      } else {
-        ...
-        run_get_centres("YOUR_TABLE_ID");
-      }
-
 So that the data is accessible, make sure the [table access permissions](https://developers.google.com/fusiontables/docs/v2/using#authTbl) is not *Private*.
+
+Once done, edit the `_config.yml` file as follows:
+
+    # GotToVote Config
+    
+    country: "YOUR_COUNTRY_NAME"
+    election_year: "ELECTION_YEAR"
+    
+    registration_end_date: "REGISTRATION_END_DATE"
+    
+    api_key: "YOUR_GOOGLE_API_KEY"
+    table_id: "YOUR_FUSION_TABLE_ID"
+    
+    google_analytics: 'YOUR_GOOGLE_ANALYTICS_TRACKER'
+    
+    ...
+
 
 #### 1.4. Deployment
 
-Now you're ready to rumble. If you would like to see the platform in action on your local machine, simply open the folder in terminal or command prompt and run `jekyll serve`. You should then be able to see your version of GotToVote! Registration Centres on http://localhost:4000/
+Now you're ready to rumble. If you would like to see the platform in action on your local machine, simply open the folder in terminal or command prompt and run `jekyll serve`. You should then be able to see your version of GotToVote! Registration Centres on [`http://localhost:4000/`](http://localhost:4000).
 
-To deploy using Github Pages, just commit and push your latest changes and the platform should be available at http://[YOUR_USERNAME].github.io/GotToVote.Ghana/
+To deploy using Github Pages, just commit and push your latest changes and the platform should be available at http://[YOUR_USERNAME].github.io/GotToVote-RCI/
 
 To use a custom URL e.g mycountry2015.org follow the steps [here](https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/).
 
