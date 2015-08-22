@@ -1,0 +1,33 @@
+---
+layout: default
+nav_docs: active
+---
+
+<div class="container">
+  <div class="marketing">
+    <div class="page-header">
+      <h2 class="no-anchor">GotToVote! Documentation<br/><small>Some pointers on how to get started with your own GotToVote instance.</small></h2>
+    </div>
+    
+    {{ content }}
+  </div>
+  
+  <hr />
+  
+  {% include partners.html %}
+  
+  <hr />
+  
+  {% include footer.html %}
+</div>
+
+<link rel="stylesheet" href="/docs/style.css" />
+
+<!-- Anchor stuff -->
+
+<script type="text/javascript">
+  window.onload = function() {
+    anchors.add();
+    anchors.remove('.no-anchor');
+  };
+</script>
