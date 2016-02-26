@@ -86,28 +86,49 @@ body {
 /*===================== Custom Global Styles =====================*/
 
 a {
-	-webkit-transition: color ease-in-out 0.2s, background-color ease-in-out 0.2s, opacity ease-in-out 0.2s;
-   -moz-transition: color ease-in-out 0.2s, background-color ease-in-out 0.2s, opacity ease-in-out 0.2s;
-   -o-transition: color ease-in-out 0.2s, background-color ease-in-out 0.2s, opacity ease-in-out 0.2s;
-   transition: color ease-in-out 0.2s, background-color ease-in-out 0.2s, opacity ease-in-out 0.2s;
+    -webkit-transition: color ease-in-out 0.2s, background-color ease-in-out 0.2s, opacity ease-in-out 0.2s;
+    -moz-transition: color ease-in-out 0.2s, background-color ease-in-out 0.2s, opacity ease-in-out 0.2s;
+    -o-transition: color ease-in-out 0.2s, background-color ease-in-out 0.2s, opacity ease-in-out 0.2s;
+    transition: color ease-in-out 0.2s, background-color ease-in-out 0.2s, opacity ease-in-out 0.2s;
 }
 
 .header img {
-	width: 200px;
-	margin-top: -20px;
+    width: 200px;
+    margin-top: -20px;
 }
 .header ul {
-  padding-bottom: 19px;
+    padding-bottom: 19px;
 }
 
 .main-nav {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  padding-top: 20px;
-  background-color: #ffffff;
-  z-index: 9999;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-top: 20px;
+    background-color: #ffffff;
+    z-index: 9999;
 }
+
+.header .nav-pills  > li > a {
+    color: #5cb85c;
+    border-color: #4cae4c;
+}
+    .header .nav-pills  > li > a :hover, .header .nav-pills  > li > a :focus {
+        background-color: #449d44;
+        border-color: #398439 !important;
+        color: #fff;
+    }
+    
+    .header .nav-pills  > li.active > a {
+        background-color: #5cb85c;
+        border-color: #4cae4c;
+        color: #fff;
+    }
+    .header .nav-pills  > li.active > a :hover, .header .nav-pills  > li.active > a :focus {
+        background-color: #449d44;
+        border-color: #398439 !important;
+        color: #fff;
+    }
 
 
 
@@ -143,23 +164,23 @@ a {
 
 /*======================      Blog Page      ======================*/
 .blog-list .media {
-  margin-top: 40px;
+    margin-top: 40px;
 }
 .blog-list .media .media-thumb {
-  max-width: 30%;
+    max-width: 30%;
 }
 .blog-list .media-object {
-  max-width: 100%;
-  width: 200px;
+    max-width: 100%;
+    width: 200px;
 }
 
 /*======================      Post Page      ======================*/
 
 .post-featured {
-  margin: 10px;
-  max-width: 40%;
+    margin: 10px;
+    max-width: 40%;
 }
-  .post-featured img {
-    width: 250px;
-    max-width: 100%;
-  }
+    .post-featured img {
+        width: 250px;
+        max-width: 100%;
+    }
