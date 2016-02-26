@@ -1,5 +1,5 @@
 name: GotToVote.cc
-markdown: redcarpet
+markdown: kramdown
 highlighter: pygments
 
 safe: true
