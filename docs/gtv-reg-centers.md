@@ -9,7 +9,7 @@ The first of the GotToVote! components to be built. This allows easy display and
 GotToVote! Registration Centres uses:
 
 1. [Github Pages](https://pages.github.com/) - Serve the HTML
-2. [Fusion Tables](https://developers.google.com/fusiontables/) - Store the database of registration centres
+2. [Fusion Tables](https://support.google.com/fusiontables/answer/2571232?hl=en) - Store the database of registration centres
 
 As such, you would need Github and Google accounts respectively. Both are free.
 
