@@ -2,6 +2,9 @@ name: GotToVote.cc
 markdown: kramdown
 highlighter: rouge
 
+url: https://gottovote.cc   # with the https protocol
+enforce_ssl: gottovote.cc   # without any protocol
+
 safe: true
 lsi: false
 
